@@ -79,7 +79,7 @@ def index():
             # debug if url is not empty
             return Response(url, status=200)
         except:
-            return render_template('index.html', error='Please enter a valid URL') 
+            return Response('gagal', status=400)
 
     return render_template('index.html')   
     
