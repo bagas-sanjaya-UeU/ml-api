@@ -79,12 +79,12 @@ def index():
             # debug if url is not empty
             return Response(url, status=200)
         except:
-            return render_template('index.html', error='Please enter a valid URL') 
+            return Response("Error", status=400) 
 
-    return render_template('index.html')   
+    return "Ok"   
     
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000) 
+    app.run(debug=True) 
 
 

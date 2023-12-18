@@ -1,3 +1,4 @@
 .venv
 credentials.json
 my_model.keras
+__pycache__
