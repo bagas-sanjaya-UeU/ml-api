@@ -4,10 +4,23 @@ pillow
 numpy
 tensorflow
 keras
+<<<<<<< HEAD
 google-api-core==2.15.0
 google-auth==2.25.2
 google-cloud-core==2.4.1
 google-cloud-storage
+=======
+google-cloud-storage
+blinker==1.7.0
+cachetools==5.3.2
+certifi==2023.11.17
+charset-normalizer==3.3.2
+click==8.1.7
+colorama==0.4.6
+google-api-core==2.15.0
+google-auth==2.25.2
+google-cloud-core==2.4.1
+>>>>>>> cc186741654a3dff4d99783b36a435c2f3fa4a10
 google-crc32c==1.5.0
 google-resumable-media==2.7.0
 googleapis-common-protos==1.62.0
@@ -22,9 +35,12 @@ requests==2.31.0
 rsa==4.9
 urllib3==2.1.0
 Werkzeug==3.0.1
+<<<<<<< HEAD
 blinker==1.7.0
 cachetools==5.3.2
 certifi==2023.11.17
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
+=======
+>>>>>>> cc186741654a3dff4d99783b36a435c2f3fa4a10
